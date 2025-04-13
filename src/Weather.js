@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios, { isCancel } from "axios";
+import axios from "axios";
 import "./Weather.css";
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
